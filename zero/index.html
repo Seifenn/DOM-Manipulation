@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" type="image" href="images/logo.jpg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container-1">
+      <img id="login-header" src="images/header.png" />
+      <hr />
+      <h2>Welcome to SMU
+        <label class="switch">
+            <input type="checkbox" id="checkbox">
+            <span class="slider"></span>
+          </label>
+      </h2>
+      <form class="my-form" id="my-form">
+        <label for="Email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="Email"
+          placeholder="Enter your email"
+        /><br />
+        <label for="Password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+        /><br />
+        <input type="submit" id="submit" name="submit" value="Submit" /><br />
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
